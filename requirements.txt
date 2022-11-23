@@ -1,0 +1,20 @@
+
+GNU Radio Install gnuradio~=3.10.4.0
+------------------------------------------------------------------------------------------------------------
+sudo add-apt-repository ppa:gnuradio/gnuradio-releases
+sudo apt-get update
+sudo apt-get install gnuradio
+
+sip~=6.7.5
+packaging~=21.3
+pyqt5~=5.15.7
+--------------------------------------------------------------------------------------------------------------
+Driver UHD Ubuntu 20.04 LTS
+https://files.ettus.com/manual/page_install.html
+--------------------------------------------------------------------------------------------------------------
+sudo add-apt-repository ppa:ettusresearch/uhd
+sudo apt-get update
+sudo apt-get install libuhd-dev uhd-host
+        -----------------
+sudo /usr/lib/uhd/utils/uhd_images_downloader.py
+
